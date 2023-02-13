@@ -13,9 +13,17 @@
   }
 }
 
+.content {
+  background-image: url("./asset/bg.png");
+  background-repeat: no-repeat;
+  height: 595.2px;
+  width: 419.52px;
+  position: fixed;
+  left: 800px;
+  top: 0px;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +32,166 @@
   color: white;
 }
 
+.mangset {
+  position: fixed;
+  left: 1150px;
+  top: 10px;
+  width: 59px;
+  height: 56px;
+}
+
+.tutorial {
+  position: fixed;
+  width: 205px;
+  height: 32px;
+  left: 800px;
+  top: 50px;
+  margin-bottom: 10px;
+  background: #FDEAF2;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.tutorial p {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  line-height: 5px;
+  color: #ED2E7D;
+}
+
+.used {
+  position: absolute;
+  width: 471px;
+  height: 12px;
+  top: 85px;
+}
+
+.step {
+  height: 27px;
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.step p {
+  margin-left: 7px;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  line-height: 10px;
+  color: #383838;
+
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.layer {
+  position: fixed;
+  left: 830px;
+  top: 10px;
+  width: 86.13px;
+  height: 24px;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+#capture {
+  position: fixed;
+  left: 960px;
+  top: 267px;
+}
+
+.voucherCode {
+  position: absolute;
+  top: 420px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.title {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 1;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.voucherCode img {
+  width: 240px;
+  height: 40px;
+  padding-left: 15px;
+  padding-top: 7px;
+}
+
+.showVoucher {
+  width: 240px;
+  height: 40px;
+  position: fixed;
+  left: 930px;
+  top: 413px;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 35px;
+}
+
+.paper {
+  position: absolute;
+  left: 90px;
+  top: 495px;
+  width: 240px;
+  color: white;
+  text-align: center;
+}
+
+.paperName {
+  max-height: 64px;
+  height: 12px;
+  /* max-width: 280px; */
+  text-align: center;
+}
+
+.numberSpp {
+  height: 10px;
+}
+
+.numberSpp p {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.paperName p {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 19px;
+  line-height: 27px;
+  word-wrap: break-word;
+
 }
